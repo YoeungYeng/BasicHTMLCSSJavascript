@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.header > #gg{
+    font-size: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.increaments{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.increaments > #decrement{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: rgb(#098183, #098123, #45721211);
+    box-shadow: 1px 1px 1px 0px;
+}
+.increaments > #decrement:hover{
+    background-color: gold;
+}
+.increaments > #equal{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: rgb(#098183, #098123, #45721211);
+    box-shadow: 1px 1px 1px 0px;
+}
+.increaments > #increament{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: rgb(#098183, #098123, #45721211);
+    box-shadow: 1px 1px 1px 0px;
+}
